@@ -52,7 +52,6 @@ useEffect(()=>{
         )
       })
     }
-    
     {
     comments.map((item, index) => {
       return (

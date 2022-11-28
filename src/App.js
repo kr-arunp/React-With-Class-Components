@@ -65,12 +65,15 @@
 // import TitleName from "./components/Hooks/TitleName";
 // import SideEffect from "./components/Hooks/UseEffect/SideEffect";
 // import UseEffectOnProps from "./components/Hooks/UseEffectOnProps";
-import FetchData from "./components/Hooks/UseEffect/FetchData";
+// import FetchData from "./components/Hooks/UseEffect/FetchData";
+import FetchSingleRecord from "./components/Hooks/UseEffect/FetchSingleRecord";
+
 const App = () =>
 {
   return(
     <>
-    <FetchData/>
+    <FetchSingleRecord/>
+    {/* <FetchData/> */}
     {/* <UseEffectOnProps/> */}
        {/* <TitleName/> */}
       {/* <ClassEvent/> */}
