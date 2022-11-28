@@ -1,0 +1,43 @@
+.Square{
+ width:80%;
+height:232px;
+border:2px solid rgb(2, 221, 137);
+text-align:center;
+display:flex;
+justify-content:center;
+align-items:center;
+align-content: center;
+color:rgb(0, 0, 0);
+font-size: 2.5rem;
+margin: 12px 12px ;
+box-shadow:2px 2px 2px rgb(71, 240, 198);
+font-family: monospace;
+}
+body{
+padding: 0;
+margin: 0;
+}
+form{
+height: inherit;
+text-align:center;
+display:flex;
+justify-content:center;
+align-items:center;
+
+}
+input{
+margin-top: 12px;
+padding: 12px 12px;
+text-align: center;
+
+}
+input{
+font-size: 1rem;
+font-family: monospace;
+}
+label{
+
+color:rgb(0, 16, 119);
+font-size: 1.2rem;
+font-size-adjust: 1;
+}

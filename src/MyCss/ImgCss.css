@@ -1,0 +1,17 @@
+a{
+    padding:12px;
+}
+img{
+
+    padding-bottom: 22px;
+    border: 2px solid rgb(38, 190, 0);
+    background-color: aqua;
+    image-rendering: optimizeQuality;
+    width:min-content;
+
+    background-image: url("https://source.unsplash.com/random/?productivity,city");
+
+
+    
+
+}

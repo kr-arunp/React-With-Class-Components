@@ -1,0 +1,9 @@
+.Mycss{
+    font-size:25px;
+    font-weight: bolder;
+    /* font-variant: small-caps; */
+    text-transform:capitalize;
+    color:rgb(194, 194, 209);
+    font-family: 'Courier New', Courier, monospace;
+    background-color: aquamarine;
+}
