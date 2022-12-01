@@ -6,7 +6,6 @@ const FetchSingleRecord = () => {
   const [Input, setInput] = useState("");
   const [CurrentPost, setCurrentPost] = useState({});
   const [URL,setURL]=useState(`https://jsonplaceholder.typicode.com/posts/`);
-  let post_id =0;
     const EnterHandler = (e) => {
       if (e.keyCode === 13) {
          SetPost()

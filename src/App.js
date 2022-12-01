@@ -7,6 +7,7 @@
 // import Main from "./components/Challenges/Main";
 // import { SimpleForm } from './components/Forms/SimpleForm';
 
+
 // import Counter from "./components/BasicPractice/Counter";
 // import UseRefForm from "./components/Forms/useRef";
 // import MyCounter from "./components/States/Counter";
@@ -66,13 +67,14 @@
 // import SideEffect from "./components/Hooks/UseEffect/SideEffect";
 // import UseEffectOnProps from "./components/Hooks/UseEffectOnProps";
 // import FetchData from "./components/Hooks/UseEffect/FetchData";
-import FetchSingleRecord from "./components/Hooks/UseEffect/FetchSingleRecord";
-
+// import FetchSingleRecord from "./components/Hooks/UseEffect/FetchSingleRecord";
+import JsonServer from "./components/Hooks/UseEffect/JsonServer";
 const App = () =>
 {
   return(
     <>
-    <FetchSingleRecord/>
+     <JsonServer/>
+    {/* <FetchSingleRecord/> */}
     {/* <FetchData/> */}
     {/* <UseEffectOnProps/> */}
        {/* <TitleName/> */}
@@ -113,7 +115,8 @@ const App = () =>
          {/* <TodoList/> */}
          {/* <Useimport Effect/> */}
          {/* <Todimport */}
-            {/* <MountingPhaseA/> */}
+            {/* <import JsonServer from "./components/Hooks/UseEffect/JsonServer";
+MountingPhaseA/> */}
             {/* <ComponentDidUpdate_1/> */}
           {/* <ComponenetDidUp/> */}
           {/* <UnMount/> */}
