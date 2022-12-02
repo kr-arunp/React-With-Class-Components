@@ -27,7 +27,7 @@ const JsonServer = () => {
           flexDirection: "column",
           justifyContent: "center",
           width: "100%",
-          height:'10vh',
+          height: "10vh",
           zIndex: "5",
           backgroundImage:
             "linear-gradient(to right top, #051937, #171228, #190a1a, #12040d, #000000)",
@@ -35,23 +35,24 @@ const JsonServer = () => {
           marginTop: "0",
           padding: "12px 10px",
         }}
+        className="monospace p-8 selection:bg-red-600"
       >
-        <h1>Creating Local Rest API json server</h1>
+        <h1 className="selection:bg-red-600">
+          Creating Local Rest API json server
+        </h1>
       </div>
-      <div  className="container1">
-        {
-        UserData.map((user) => {
+      <div className="container1">
+        {UserData.map((user) => {
           return (
             <div className="container key={user.id}">
               <span className="id"> User ID:{user.id}</span>
               <span className="Fname">User First Name:{user.first}</span>
               <span className="Lname">User Last Name:{user.last}</span>
               <span className="Email"> User Email Id:{user.email}</span>
-              <span className="Location">User Location :{user.country}</span>
+              <span className="Location ">User Location :{user.country}</span>
             </div>
           );
-        })
-        }
+        })}
       </div>
     </>
   );

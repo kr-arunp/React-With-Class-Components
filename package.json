@@ -19,7 +19,7 @@
   "scripts": {
     "netlify": "netlify",
     "start": "react-scripts  start -w",
-    "build-css": "postcss ./src/index1.css -o ./public/style.css -w",
+    "build-css": "start --watch postcss ./src/index1.css -o ./public/style.css -w",
     "build": "react-scripts  build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

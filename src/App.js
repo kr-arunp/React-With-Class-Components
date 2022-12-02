@@ -68,12 +68,16 @@
 // import UseEffectOnProps from "./components/Hooks/UseEffectOnProps";
 // import FetchData from "./components/Hooks/UseEffect/FetchData";
 // import FetchSingleRecord from "./components/Hooks/UseEffect/FetchSingleRecord";
-import JsonServer from "./components/Hooks/UseEffect/JsonServer";
+// import Fragment_Example from "./components/Fragment/Fragmene";
+import { ChildToParent } from "./components/Functional Components/ChildToParent";
+// import JsonServer from "./components/Hooks/UseEffect/JsonServer";
 const App = () =>
 {
   return(
     <>
-     <JsonServer/>
+    <ChildToParent/>
+    {/* <Fragment_Example/> */}
+     {/* <JsonServer/> */}
     {/* <FetchSingleRecord/> */}
     {/* <FetchData/> */}
     {/* <UseEffectOnProps/> */}
