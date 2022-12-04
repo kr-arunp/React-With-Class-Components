@@ -21,7 +21,7 @@ const [Input, setInput]=React.useState("");
       <button onClick={() => props.UserData(data, style)} id="btn">
         Click Me!
       </button>
-      <p>
+          <p>
         <input
           type="text"
           value={Input}

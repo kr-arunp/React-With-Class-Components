@@ -4,7 +4,7 @@ import "../Hooks/Hooks CSS/ToDo.css";
 export const ChildToParent = () => {
   const [Name, setName] = React.useState("");
   const [Color, setColor] = React.useState({});
-  const [BgColor, setBGColor] = React.useState({});
+  const [BgColor, setBGColor] = React.useState({backgroundColor:'white'});
   
   function getUserData(data,MyStyle) {
     setName(data);

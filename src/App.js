@@ -8,6 +8,7 @@
 // import { SimpleForm } from './components/Forms/SimpleForm';
 
 
+
 // import Counter from "./components/BasicPractice/Counter";
 // import UseRefForm from "./components/Forms/useRef";
 // import MyCounter from "./components/States/Counter";
@@ -69,13 +70,20 @@
 // import FetchData from "./components/Hooks/UseEffect/FetchData";
 // import FetchSingleRecord from "./components/Hooks/UseEffect/FetchSingleRecord";
 // import Fragment_Example from "./components/Fragment/Fragmene";
-import { ChildToParent } from "./components/Functional Components/ChildToParent";
+// import { ChildToParent } from "./components/Functional Components/ChildToParent";
 // import JsonServer from "./components/Hooks/UseEffect/JsonServer";
+
+
+
+import ReactMemo from "./components/Hooks/ReactMemo";
+
 const App = () =>
 {
   return(
     <>
-    <ChildToParent/>
+    <ReactMemo/>
+    {/* <PureParentComponent/> */}
+    {/* <ChildToParent/> */}
     {/* <Fragment_Example/> */}
      {/* <JsonServer/> */}
     {/* <FetchSingleRecord/> */}
@@ -120,7 +128,8 @@ const App = () =>
          {/* <Useimport Effect/> */}
          {/* <Todimport */}
             {/* <import JsonServer from "./components/Hooks/UseEffect/JsonServer";
-MountingPhaseA/> */}
+MountingPhaseA/> import ReactMemo from "./components/Hooks/ReactMemo";
+*/}
             {/* <ComponentDidUpdate_1/> */}
           {/* <ComponenetDidUp/> */}
           {/* <UnMount/> */}
