@@ -7,8 +7,6 @@
 // import Main from "./components/Challenges/Main";
 // import { SimpleForm } from './components/Forms/SimpleForm';
 
-
-
 // import Counter from "./components/BasicPractice/Counter";
 // import UseRefForm from "./components/Forms/useRef";
 // import MyCounter from "./components/States/Counter";
@@ -26,7 +24,6 @@
 // import ListParent from "./components/Lists/ListParent";
 
 // import MovieRender from "./components/Lists/MovieRender";
-
 
 // import Intro from "./components/Lists/Intro1";
 // import Carts from "./components/Netflix/Carts";
@@ -73,23 +70,32 @@
 // import { ChildToParent } from "./components/Functional Components/ChildToParent";
 // import JsonServer from "./components/Hooks/UseEffect/JsonServer";
 
+// import ReactMemo from "./components/Hooks/ReactMemo";
 
-
-import ReactMemo from "./components/Hooks/ReactMemo";
-
-const App = () =>
-{
-  return(
+// import FormRef from "./components/Hooks/Hooks CSS/UseRef/FormRef";
+// import UserRefHook from "./components/Hooks/Hooks CSS/UseRef/UserRefHook";
+import Counter from "./components/Hooks/Hooks CSS/UseRef/Counter";
+import HookTimer from "./components/Hooks/Hooks CSS/UseRef/HookTimer";
+import Ref from "./components/Hooks/Hooks CSS/UseRef/RefExample";
+import TrackingSate from "./components/Hooks/Hooks CSS/UseRef/TrackingSate";
+const App = () => {
+  return (
     <>
-    <ReactMemo/>
-    {/* <PureParentComponent/> */}
-    {/* <ChildToParent/> */}
-    {/* <Fragment_Example/> */}
-     {/* <JsonServer/> */}
-    {/* <FetchSingleRecord/> */}
-    {/* <FetchData/> */}
-    {/* <UseEffectOnProps/> */}
-       {/* <TitleName/> */}
+   <HookTimer/>
+   <TrackingSate/>
+   {/* <Counter/>     */}
+   {/* <UserRefHook/> */}
+    {/* <FormRef/> */}
+      {/* <Ref /> */}
+      {/* <ReactMemo/> */}
+      {/* <PureParentComponent/> */}
+      {/* <ChildToParent/> */}
+      {/* <Fragment_Example/> */}
+      {/* <JsonServer/> */}
+      {/* <FetchSingleRecord/> */}
+      {/* <FetchData/> */}
+      {/* <UseEffectOnProps/> */}
+      {/* <TitleName/> */}
       {/* <ClassEvent/> */}
       {/* <Conditional/> */}
       {/* <Counter/> */}
@@ -114,31 +120,30 @@ const App = () =>
       {/* <UnControlled/>  */}
       {/* <FormUnControlled/> */}
       {/* <ControlledForm/> */}
-        {/* <SimpleForm/> */}
-        {/* <UseRefForm/> */}
-       {/* <MyCounter/> */}
-         {/* <Main/> */}
-         {/* <SimplePage/> */}
-         {/* <MyState/> */}
-         {/* <MyCounteruseState/> */}
-         {/* <UseStateWithObjects/> */}
-         {/* <PersonalInfo/> */}
-         {/* <Clock/> */}
-         {/* <TodoList/> */}
-         {/* <Useimport Effect/> */}
-         {/* <Todimport */}
-            {/* <import JsonServer from "./components/Hooks/UseEffect/JsonServer";
+      {/* <SimpleForm/> */}
+      {/* <UseRefForm/> */}
+      {/* <MyCounter/> */}
+      {/* <Main/> */}
+      {/* <SimplePage/> */}
+      {/* <MyState/> */}
+      {/* <MyCounteruseState/> */}
+      {/* <UseStateWithObjects/> */}
+      {/* <PersonalInfo/> */}
+      {/* <Clock/> */}
+      {/* <TodoList/> */}
+      {/* <Useimport Effect/> */}
+      {/* <Todimport */}
+      {/* <import JsonServer from "./components/Hooks/UseEffect/JsonServer";
 MountingPhaseA/> import ReactMemo from "./components/Hooks/ReactMemo";
 */}
-            {/* <ComponentDidUpdate_1/> */}
-          {/* <ComponenetDidUp/> */}
-          {/* <UnMount/> */}
-          {/* <UseEffectExample/> */}
-          {/* <QuoteGenerator/> */}
-          {/* <Intro1/> */}
-          {/* <SideEffect/> */}
-          
-        
+
+      {/* <ComponentDidUpdate_1/> */}
+      {/* <ComponenetDidUp/> */}
+      {/* <UnMount/> */}
+      {/* <UseEffectExample/> */}
+      {/* <QuoteGenerator/> */}
+      {/* <Intro1/> */}
+      {/* <SideEffect/> */}
     </>
   );
 };
