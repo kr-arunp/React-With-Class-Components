@@ -1,11 +1,12 @@
 // @ts-ignore
+import '../Hooks CSS/ToDo.css'
 import axios from "axios";
 import React from "react";
 import "../Hooks CSS/json-server.css";
 import { useState, useEffect } from "react";
 const JsonServer = () => {
   const [UserData, setUserData] = useState([]);
-  let URL = `http://localhost:8800/users`;
+  let URL = `http://localhost:3004/users`;
   useEffect(() => {
     axios
       .get(URL)
@@ -35,13 +36,31 @@ const JsonServer = () => {
           marginTop: "0",
           padding: "12px 10px",
         }}
-        className="monospace p-8 selection:bg-red-600"
+        className="p-8 monospace selection:bg-red-600"
       >
-        <h1 className="selection:bg-red-600">
-          Creating Local Rest API json server
-        </h1>
+        <div>
+          <h1 className="selection:bg-red-600">
+            Creating Local Rest API json server
+          </h1>
+        </div>
       </div>
       <div className="container1">
+        <div style={{ height: "90vh", marginTop: "12vh" }}>
+             <p>
+             <input type="text"
+             placeholder='Enter a ID...'
+             
+             />
+             <button id='btn'>
+               Search
+             </button>
+             
+             
+             </p>
+        </div>
+      </div>
+      {/*
+     <div className="container1">
         {UserData.map((user) => {
           return (
             <div className="container key={user.id}">
@@ -54,6 +73,7 @@ const JsonServer = () => {
           );
         })}
       </div>
+      */}
     </>
   );
 };

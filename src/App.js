@@ -7,6 +7,8 @@
 // import Main from "./components/Challenges/Main";
 // import { SimpleForm } from './components/Forms/SimpleForm';
 
+import FetchSingleRecordJson from "./components/Hooks/Hooks CSS/UseRef/FetchingSingleDataJson";
+
 // import Counter from "./components/BasicPractice/Counter";
 // import UseRefForm from "./components/Forms/useRef";
 // import MyCounter from "./components/States/Counter";
@@ -74,15 +76,19 @@
 
 // import FormRef from "./components/Hooks/Hooks CSS/UseRef/FormRef";
 // import UserRefHook from "./components/Hooks/Hooks CSS/UseRef/UserRefHook";
-import Counter from "./components/Hooks/Hooks CSS/UseRef/Counter";
-import HookTimer from "./components/Hooks/Hooks CSS/UseRef/HookTimer";
-import Ref from "./components/Hooks/Hooks CSS/UseRef/RefExample";
-import TrackingSate from "./components/Hooks/Hooks CSS/UseRef/TrackingSate";
+// import ForwardRef from "./components/Hooks/Hooks CSS/ForwardRef";
+// import Counter from "./components/Hooks/Hooks CSS/UseRef/Counter";
+// import HookTimer from "./components/Hooks/Hooks CSS/UseRef/HookTimer";
+// import Ref from "./components/Hooks/Hooks CSS/UseRef/RefExample";
+// import TrackingSate from "./components/Hooks/Hooks CSS/UseRef/TrackingSate";
 const App = () => {
   return (
     <>
-   <HookTimer/>
-   <TrackingSate/>
+    <FetchSingleRecordJson/>
+      {/* <JsonServer/> */}
+    {/* <ForwardRef/> */}
+   {/* <HookTimer/> */}
+   {/* <TrackingSate/> */}
    {/* <Counter/>     */}
    {/* <UserRefHook/> */}
     {/* <FormRef/> */}
@@ -91,7 +97,6 @@ const App = () => {
       {/* <PureParentComponent/> */}
       {/* <ChildToParent/> */}
       {/* <Fragment_Example/> */}
-      {/* <JsonServer/> */}
       {/* <FetchSingleRecord/> */}
       {/* <FetchData/> */}
       {/* <UseEffectOnProps/> */}
