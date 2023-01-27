@@ -8,7 +8,10 @@ const FetchSingleRecordJson = () => {
   const [Input, setInput] = useState("");
   const [UserId, setUserId] = useState(1);
   let ClickHandler = (e) => {
-      if(Input>=60){
+      if(Input===""){
+        setInput("");
+      }
+      else if(Input>=60){
       alert("Not Available  there are only 60 entries");
       }
       else
@@ -23,6 +26,8 @@ const FetchSingleRecordJson = () => {
     
     let URL = `http://localhost:3004/users/${UserId}`;
   useEffect(() => {
+    if(UserId===0)
+    setUserId(0);
     axios
       .get(URL)
       .then((res) => {
@@ -59,30 +64,38 @@ const FetchSingleRecordJson = () => {
           </h1>
         </div>
       </div>
-
-      <div className="container1">
-        <div style={{ height: "90vh", marginTop: "12vh" }}>
-          <p>
-            <input
-              type="text"
-              placeholder="Enter a ID..."
-              onKeyUp={EnterHandler}
-              value={Input}
-              onChange={(e) => setInput(e.target.value)}
-            />
-            <button id="btn" onClick={ClickHandler}>
-              Search
-            </button>
-          </p>
-          <div className="container">
-            <span className="id"> User ID:{UserData.id}</span>
-            <span className="Fname">UserData First Name:{UserData.first}</span>
-            <span className="Lname">UserData Last Name:{UserData.last}</span>
-            <span className="Email"> UserData Email Id:{UserData.email}</span>
-            <span className="Location ">user Location :{UserData.country}</span>
-          </div>
-        </div>
+       <div className="container1">
+      <div style={{ height: "90vh", marginTop: "12vh" }}>
+        <p>
+          <input
+            type="text"
+            placeholder="Enter a ID..."
+            onKeyUp={EnterHandler}
+            value={Input}
+            onChange={(e) => setInput(e.target.value)}
+          />
+          <button id="btn" onClick={ClickHandler}>
+            Search
+          </button>
+        </p>
       </div>
+       </div>
+      
+
+      { UserId>0 && (
+            <div className="container">
+              <span className="id"> User ID:{UserData.id}</span>
+              <span className="Fname">
+                UserData First Name:{UserData.first}
+              </span>
+              <span className="Lname">UserData Last Name:{UserData.last}</span>
+              <span className="Email"> UserData Email Id:{UserData.email}</span>
+              <span className="Location ">
+                user Location :{UserData.country}
+              </span>
+            </div>
+        
+      )}
     </>
   );
 };
