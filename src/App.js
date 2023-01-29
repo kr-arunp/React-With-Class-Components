@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-pascal-case */
 // import './MyCss/event1css.css'
 // import Intro from "./components/Hooks/Intro";
 // import  MyState from "./components/Hooks/useState1";
@@ -7,7 +8,18 @@
 // import Main from "./components/Challenges/Main";
 // import { SimpleForm } from './components/Forms/SimpleForm';
 
-import FetchSingleRecordJson from "./components/Hooks/Hooks CSS/UseRef/FetchingSingleDataJson";
+// import Counter from "./components/Counter";
+// import ErrorBoundaryClass from "./components/ErrorBoudaryClass";
+// import ErrorBoundary from "./components/ErrorBoundary";
+// import Counter_Count from "./components/HOC's/Counter";
+// import HoverCount from "./components/HOC's/HoverCount";
+// import Intro from "./components/HOC's/Intro";
+// import FetchSingleRecordJson from "./components/Hooks/Hooks CSS/UseRef/FetchingSingleDataJson";
+// import Hover from "./components/Hover";
+// import Portals from "./components/Portals";
+import Counter from "./components/RanderProps/Counter";
+import HoverCounter from "./components/RanderProps/HoverCounter";
+import RenderProps from "./components/RanderProps/RenderProps";
 
 // import Counter from "./components/BasicPractice/Counter";
 // import UseRefForm from "./components/Forms/useRef";
@@ -84,7 +96,7 @@ import FetchSingleRecordJson from "./components/Hooks/Hooks CSS/UseRef/FetchingS
 const App = () => {
   return (
     <>
-    <FetchSingleRecordJson/>
+    {/* <FetchSingleRecordJson/> */}
       {/* <JsonServer/> */}
     {/* <ForwardRef/> */}
    {/* <HookTimer/> */}
@@ -148,7 +160,17 @@ MountingPhaseA/> import ReactMemo from "./components/Hooks/ReactMemo";
       {/* <UseEffectExample/> */}
       {/* <QuoteGenerator/> */}
       {/* <Intro1/> */}
-      {/* <SideEffect/> */}
+      {/* <SideEffect/> */}  
+      {/* <Portals/> */}
+      {/* <Counter/> */}
+      {/* <Hover/> */}
+      {/* <Intro/> */}
+      {/* <HoverCount/> */}
+      {/* <Counter_Count/> */}
+      <RenderProps/>
+      
+
+     
     </>
   );
 };
